@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000;
+    align-items: center;
+
+}
+
+h1{
+    color: #000;
+
+}
+ul{
+    display: flex; 
+    margin: 0px;
+    padding: 30px;
+ }
+ a{
+     color: #fff;
+ }
+ li{
+     list-style: none;
+     margin-left: 15px;
+ }
+nav{
+     display: flex ;
+     align-items: center;
+     margin-right: 50px;
+ }
+h3{
+     padding-left: 50px;
+     color: limegreen;
+     font-family: Arial, Helvetica, sans-serif;
+    
+
+ }
+ .background {
+     display: flex;
+     flex-direction: column;
+     background-image: url(https://www.mixdecor.ru/upload/iblock/f37/f3729e4df2710c21ddef4e579bb6e54e.jpg);
+     background-size: cover;
+     height: 100vh;
+     background-repeat: no-repeat;
+ }
+
+.services {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .services li {
+    border: 2px solid #000;
+    width: 250px;
+    height: 350px;
+    
+ }
+ p {
+     color: #000;
+ }
+ div {
+     padding-left: 100px;
+     padding-top: 250px;
+ }
+ h2 {
+     padding-top: 40px;
+     padding-left: 40px;
+ }
+.onas {
+    padding-left: 60px;
+    padding-top: 60px;
+}
