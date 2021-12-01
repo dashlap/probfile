@@ -13,13 +13,20 @@ header{
 
 h1{
     color: #000;
-
 }
 ul{
     display: flex; 
     margin: 0px;
     padding: 30px;
  }
+
+form{
+ padding-top: 10px;
+ padding-left: 20px;
+ padding-right: 500px;
+ 
+}
+
  a{
      color: #fff;
  }
@@ -44,19 +51,27 @@ h3{
      flex-direction: column;
      background-image: url(https://www.mixdecor.ru/upload/iblock/f37/f3729e4df2710c21ddef4e579bb6e54e.jpg);
      background-size: cover;
-     height: 100vh;
+     height: 70vh;
      background-repeat: no-repeat;
+ }
+
+ .padding {
+    padding-left: 60px;
  }
 
 .services {
      display: flex;
      flex-direction: row;
+     
  }
  
  .services li {
     border: 2px solid #000;
     width: 250px;
-    height: 350px;
+    height: 400px;
+    
+    list-style-image: url();
+    
     
  }
  p {
@@ -72,5 +87,44 @@ h3{
  }
 .onas {
     padding-left: 60px;
-    padding-top: 60px;
+    padding-top: 10px;
+}
+
+.contacts {
+    padding-left: 60px;
+    padding-top: 10px;
+    flex-direction: column;
+    
+}
+
+.one {
+    height: 140px;
+    width: 140px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.two {
+    height: 140px;
+    width: 140px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.three {
+    height: 140px;
+    width: 140px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.four {
+    height: 140px;
+    width: 140px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.contacts li {
+    font-size: 16px; 
 }
