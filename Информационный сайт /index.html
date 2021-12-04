@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>webdev</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>mediasoft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
 <body>
 
     <header>
-        <b><h3>WEBDEV</h3></b>
+        <a href="#" class="zag">WEBDEV</a>
 
         <nav class="navigation">
             <ul>
@@ -25,47 +26,82 @@
 
     <main>
         <div class="background">
-            <h1>Моё портфолио</h1>
-            <p>Начало работы в сфере программирования</p>
-            <form>
-                <p><input type="button" value="Нажми"></p>
-            </form>
-
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="back  padding">
+                <h1>Мое портфолио</h1>
+                <p>Начало работы в сфере программирования</p>
+    
+                <form>
+                    <input type="button" value="Нажми">
+                </form>
+            </div>
         </div>
-        
 
-        <section class="padding">
+        <section data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="padding">
             <h2>Услуги</h2>
             <ul class="services">
-                <li><img class="one" src="https://www.flaticon.com/svg/vstatic/svg/3917/3917505.svg?token=exp=1638382380~hmac=9c2e9a814e45a6fcd0e70b4b5d89f07e" alt="картинка"></li>
-                <li><img class="two" src="https://www.flaticon.com/svg/vstatic/svg/3917/3917103.svg?token=exp=1638382380~hmac=9cad2a8fb02ebfc45136a4da5ea17913" alt="картинка"></li>
-                <li><img class="three" src="https://www.flaticon.com/svg/vstatic/svg/3916/3916730.svg?token=exp=1638382380~hmac=55bb54c1b6439da659451f70390b61e7" alt="картинка"></li>
-                <li><img class="four" src="https://www.flaticon.com/svg/vstatic/svg/3917/3917698.svg?token=exp=1638382380~hmac=7bb33bb723c96b5e29544a22e1d284c1" alt="картинка"></li>
+                <li>
+                    <img src="https://www.flaticon.com/svg/vstatic/svg/5528/5528038.svg?token=exp=1638023709~hmac=ea0c52aab6eeb29065903837ffcf1168" alt="картинка">
+                    <h3>Java Script</h3>
+                    <p>Программирование на Java Script</p>
+                </li>
+                <li>
+                    <img src="https://www.flaticon.com/svg/vstatic/svg/3914/3914193.svg?token=exp=1638621973~hmac=e44a7f1ed19f0537582aee8490a18aa1" alt="картинка">
+                    <h3>PHP</h3>
+                    <p>Программирование на PHP</p>
+                </li>
+                <li>
+                    <img src="https://www.flaticon.com/svg/vstatic/svg/3917/3917494.svg?token=exp=1638622166~hmac=f7eca8c7062b427d4398a251f71e8b9c" alt="картинка">
+                    <h3>HTML</h3>
+                    <p>Программирование на HTML</p> 
+                </li>
+                <li>
+                    <img src="https://www.flaticon.com/svg/vstatic/svg/3917/3917103.svg?token=exp=1638622166~hmac=daf1f37a588da5af3d189f7dc3721ab9" alt="картинка">
+                    <h3>IOS</h3>
+                    <p>Программирование на IOS</p>
+                </li>
             </ul>
         </section>
 
-        <div class="onas">
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="onas">
             <h2>О нас</h2>
             <p>Наша команда образовалась в 2008 и люди всегда были нашей основной ценностью. Поэтому мы делаем все для роста компетенций и развития карьеры наших ребят. Удобный офис в центре города, парковка, образовательные активности, поездки на ключевые события сферы, шумные вечеринки и готовность помочь — все это создает уникальную корпоративную культуру и неповторимую атмосферу в команде.
             </p>
         </div>
 
-        <div class="contacts">
-            <b><h2>Контакты</h2></b>
-            <ul>
-                <li><span><input name="guruweba_example_tel" type="Телефон"/></span></li>
-                <li><span><input name="guruweba_example_text" type="Имя"/></span></li>
-                <li><span><input name="guruweba_example_submit" type="submit" value="Отправить"/></span></li>
-                <li><span>+79176169258</span></li>
-                <li><span>lapdash0202@gmail.com</span></li>
-            </ul>
+        <section class="contacts">
+            <h2>Контакты</h2>
+            
+            <div class="feedback">
+                <form action="">
+                    <input   size="30" type="tel" placeholder="Телефон">
+                    <input size="30" type="text" placeholder="Имя">
+                    <p><input type="button" value="Отправить"></p>
+                </form>
+    
+                <address class="dannie">
+                    <ul>
+                        <li>
+                            <a href="tel:+7(917)616-92-58">+7(917)616-92-58</a>
+                        </li>
+                        <li>
+                            <a href="email:lapdash0202@gmail.com">lapdash0202@gmail.com</a>
+                        </li>
 
-        </div>
+                    </ul>
+
+                </address>
+    `       </div>
+        </section>
+
     </main>
 
     <footer>
         <p class="footer">Все права защищены</p> 
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
