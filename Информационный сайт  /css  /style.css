@@ -152,3 +152,8 @@ form input {
     margin: 0px;
     background-color: rgb(162, 191, 221);
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
